@@ -1,1 +1,188 @@
+/* All */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 21px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #5072A7;
+    border-radius: 8px;
+}
+
+nav ul li a:hover {
+    background-color: darkblue;
+}
+
+/* index.html */
+main {
+    padding: 20px;
+}
+
+.membership {
+    display: flex;
+    align-items: flex-start;
+}
+
+.membership-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #ccc;
+    padding: 20px;
+    margin-right: 20px;
+    width: 45%;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.membership-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.membership-details {
+    font-size: 16px;
+    text-align: left;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+
+.membership-details ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.membership-details ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.side-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.partner-gyms, .signup-again {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.signup-again a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #5072A7;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.signup-again a:hover {
+    background-color: darkblue;
+}
+
+/* About.html */
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Contact.html and thankyou.html */
+.contact, .thankyou {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact h1, .thankyou h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button, .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #5072A7;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+}
+
+button:hover, .button:hover {
+    background-color: darkblue;
+}
+
+.thankyou p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
 
